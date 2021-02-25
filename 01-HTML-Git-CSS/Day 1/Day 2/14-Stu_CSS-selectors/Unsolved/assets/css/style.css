@@ -1,0 +1,41 @@
+/* TODO: Label selector type */
+
+/* This Function selects the font family that will be applied*/ 
+
+section      
+{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: Label selector type */
+
+/* This Function applies a selected background color to the body*/
+
+body {
+  background-color: lemonchiffon;
+}
+/* The below code selects the text critera for the header and footer*/
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+/* The below specifies the width for the image and the background color*/
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* The below selects a bolder font to apply to a specific text */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Selects the background color to apply to the contact section */
+#contact-section {
+  background-color: #f0ead6;
+}
